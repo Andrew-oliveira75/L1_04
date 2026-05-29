@@ -1,4 +1,5 @@
-const express = require("express");
+
+const { body, validationResult } = require("express-validator");const express = require("express");
 const app = express();
 const porta = 3000;
 
